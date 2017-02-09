@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BluetoothDemo</string>
+    <string name="app_title">ขั้นตอนการทดสอบเครื่องพิมพ์บลูทู ธ</string>
+
+    <!--main_activity-->
+    <string name="connect">ค้นหาและเชื่อมต่อเครื่องพิมพ์บลูทู ธ</string>
+    <string name="txt_content">&quot;&quot;</string>
+    <string name="choose_paper_width">ความกว้างของกระดาษ:</string>
+    <string name="width1">58mm</string>
+    <string name="width2">80mm</string>
+    <string name="printhex">HEX</string>
+    <string name="btnSend">ส่งข้อมูล</string>
+    <string name="btn_test">พิมพ์หน้าทดสอบ</string>
+    <string name="btn_prtbmp">พิมพ์รูปภาพ</string>
+    <string name="printpicture">พิมพ์กราฟิก</string>
+    <string name="chosecommand">คำแนะนำการทดสอบ</string>
+    <string name="btnClose">ใกล้</string>
+    <string name="contentdescription"></string>
+    <string name="btn_prttable">พิมพ์แบบฟอร์มที่กำหนดเอง</string>
+    <string name="Smallticketprinting">ที่กำหนดเองการพิมพ์ตั๋วขนาดเล็ก</string>
+    <string name="btn_prtcode">พิมพ์บาร์โค้ดสองมิติ</string>
+    <string name="btn_scqr">สร้างและพิมพ์รหัส QR</string>
+    <string name="btn_dyca">เปิดสวิตช์กล้อง</string>
+    <string name="input">กรุณาใส่พิมพ์!</string>
+    <string name="choose_printcoding"></string>
+    <string name="big5">แบบดั้งเดิม</string>
+    <string name="thai">ไทย</string>
+    <string name="kor">เกาหลี</string>
+    <string name="gbk12">แบบย่อ</string>
+    
+    <!--  DeviceListActivity -->
+    <string name="scanning">เครื่องสแกน…</string>
+    <string name="select_device">เลือกอุปกรณ์ที่เชื่อมต่อ</string>
+    <string name="none_paired">ไม่มีอุปกรณ์ที่จับคู่</string>
+    <string name="none_found">ไม่พบอุปกรณ์</string>
+    <string name="title_paired_devices">อุปกรณ์การแข่งขัน</string>
+    <string name="title_other_devices">อุปกรณ์ที่มีประโยชน์อื่น ๆ</string>
+    <string name="button_scan">เครื่องสแกน</string>
+     
+    <!--  Message -->
+    <string name="msg_state">ข้อผิดพลาดของการป้อนข้อมูล!</string>
+    <string name="empty">การป้อนข้อมูลเป็นที่ว่างเปล่า</string>
+    <string name="empty1">ท่านเป็นที่ว่างเปล่าในกล่องข้อความเพื่อป้อนเนื้อหาที่จะแปลง..</string>
+    <string name="not_connected">โปรดเชื่อมต่อเครื่องพิมพ์บลูทู ธ</string>
+    <string name="bt_not_enabled_leaving">บลูทู ธ ไม่ได้เริ่มต้นออกจากโปรแกรม</string>
+    <string name="title_connecting">การเชื่อมต่อ…</string>
+    <string name="title_connected_to">เกี่ยวข้อง: </string>
+    <string name="title_not_connected">ไม่ได้เชื่อมต่อ</string>
+    <string name="Connecting">มันจะเชื่อมต่อไปยังเครื่องพิมพ์บลูทู ธ</string>
+    <string name="msg_statev1">Without a picture</string>
+    <string name="strLang">thai</string>
+    <string name="camer">ไม่มีภาพ</string>
+    <string name="msg_error">ผิดพลาดของท่านโปรดตรวจสอบ!</string>
+</resources>

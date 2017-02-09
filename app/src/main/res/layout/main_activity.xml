@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content" 
+    android:orientation="vertical" 
+    android:layout_width="match_parent">
+
+    <Button 
+        android:id="@+id/button_scan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/connect"
+        />
+    
+    <EditText
+        android:id="@+id/edit_text_out"
+        android:layout_width="match_parent"
+        android:layout_height="135dp"
+        android:gravity="center_vertical|top"
+        android:text="@string/txt_content"
+        android:textSize="18sp" 
+        android:hint="@string/input">
+    </EditText>
+   
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="72dp"
+            android:layout_height="wrap_content"
+            android:text="@string/choose_paper_width">
+        </TextView>
+
+        <RadioButton
+            android:id="@+id/width_58mm"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/width1"
+            android:layout_weight="0.3"/>
+
+        <RadioButton
+            android:id="@+id/width_80mm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/width2" />
+
+        <CheckBox
+            android:id="@+id/checkBoxHEX"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/printhex" />
+
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="72dp"
+            android:layout_height="wrap_content"
+            android:text="@string/choose_printcoding">
+        </TextView>
+        
+        <RadioGroup
+        android:id="@+id/radioGroupPaperSize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/gbk12"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/gbk12"
+            android:layout_weight="0.3"
+            android:layout_marginTop="-8dip"/>
+
+        <RadioButton
+            android:id="@+id/big5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/big5" 
+            android:layout_marginTop="-8dip"/>
+
+         <RadioButton
+            android:id="@+id/thai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/thai" 
+            android:layout_marginTop="-8dip"/>
+         
+         <RadioButton
+            android:id="@+id/kor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/kor" 
+            android:layout_marginTop="-8dip"/>
+
+         </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        
+        <Button
+            android:id="@+id/Send_Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/btnSend"
+            android:layout_weight="1.0">
+        </Button>
+        <Button
+            android:id="@+id/btn_test"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_test"
+            android:layout_weight="1.0"
+            android:gravity="center">
+        </Button>
+    </LinearLayout>
+    
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <Button
+            android:id="@+id/btn_printpicture"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/printpicture"
+            android:layout_weight="1.0">
+        </Button>
+        
+        <Button
+            android:id="@+id/btn_prtbmp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_prtbmp"
+            android:layout_weight="1">
+        </Button>
+        
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        
+        <Button
+            android:id="@+id/btn_prtcommand"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/chosecommand"
+            android:layout_weight="1.0"
+            android:gravity="center">
+        </Button>
+        
+        <Button
+            android:id="@+id/btn_prttable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_prttable"
+            android:layout_weight="1.0"
+            android:gravity="center">
+        </Button>
+       
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        
+        <Button
+            android:id="@+id/btn_prtsma"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Smallticketprinting"
+            android:layout_weight="1.0"
+            android:gravity="center">
+        </Button>
+        
+        <Button
+            android:id="@+id/btn_prtbarcode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_prtcode"
+            android:layout_weight="1.0"
+            android:gravity="center">
+        </Button>
+       
+    </LinearLayout>
+   <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+          
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        
+        <Button
+            android:id="@+id/btn_scqr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_scqr"
+            android:layout_weight="1.0"
+            android:gravity="center">
+        </Button>
+        
+        <Button
+            android:id="@+id/btn_dyca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_dyca"
+            android:layout_weight="1.0"
+            android:gravity="center">
+        </Button>
+       
+    </LinearLayout>
+      </ScrollView> 
+    <Button 
+        android:id="@+id/btn_close"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnClose"/>
+
+    <ImageView
+        android:id="@+id/imageViewPictureUSB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxHeight="1920dp"
+        android:maxWidth="1080dp"
+        android:contentDescription="@string/contentdescription" />
+    
+</LinearLayout>

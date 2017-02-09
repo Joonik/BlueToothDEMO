@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">POSPrinter-BT</string>
+    <string name="app_title">BlueTooth Demo</string>
+    
+	<!--main_activity-->
+	<string name="connect">Search for and connect a Bluetooth printer</string>
+	<string name="txt_content">&quot;&quot;</string>
+	<string name="choose_paper_width">Paper width:</string>
+    <string name="width1">58mm</string>
+    <string name="width2">80mm</string>
+    <string name="printhex">HEX</string>
+    <string name="btnSend">Send Data</string>
+    <string name="btn_test">Print Test</string>
+    <string name="btn_prtbmp">Print Picture</string>
+    <string name="printpicture">Graphical Print</string>
+    <string name="chosecommand">Please select instruction</string>
+    <string name="btnClose">Close</string>
+    <string name="contentdescription"></string>
+    <string name="btn_prttable">Print Form</string>
+    <string name="Smallticketprinting">Small Ticket Printing</string>
+    <string name="btn_prtcode">Print 1D/2D Codebar</string>
+    <string name="btn_scqr">Generate QR Code Print</string>
+    <string name="btn_dyca">Turn on the camera</string>
+    <string name="input">Please enter a print!</string>
+    <string name="choose_printcoding"></string>
+    <string name="big5">BIG5</string>
+    <string name="thai">Thai</string>
+    <string name="kor">Korean</string>
+    <string name="gbk12">Simplified</string>
+    
+    <!--  DeviceListActivity -->
+    <string name="scanning">Scanning Device&#8230;</string>
+    <string name="select_device">Select the connected device</string>
+    <string name="none_paired">No matching devices</string>
+    <string name="none_found">No device found</string>
+    <string name="title_paired_devices">Match equipment</string>
+    <string name="title_other_devices">Other useful equipment</string>
+    <string name="button_scan">Scanning device</string>
+    
+    <!--  Message -->
+    <string name="msg_state">Input Error!</string>
+    <string name="empty1">Input is empty, in the text box to enter the content to be converted &#8230;</string>
+    <string name="empty">Input is empty</string>
+    <string name="not_connected">Please connect a Bluetooth printer</string>
+    <string name="bt_not_enabled_leaving">Bluetooth does not start, quit the program</string>
+    <string name="title_connecting">connecting…</string>
+    <string name="title_connected_to">connected: </string>
+    <string name="title_not_connected">Is not connected</string>
+    <string name="Connecting">It is connected to a Bluetooth printer</string>
+    <string name="msg_statev1">Without a picture</string>
+    <string name="strLang">en</string>
+    <string name="camer">No pictures</string>
+    <string name="msg_error">Input errors, please check!</string>
+    
+</resources>

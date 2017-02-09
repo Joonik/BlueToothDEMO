@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">POSPrinter-BT</string>
+    <string name="app_title">蓝牙打印机测试程序</string>
+
+    <!--main_activity-->
+    <string name="connect">搜索并连接蓝牙打印机</string>
+    <string name="txt_content">&quot;&quot;</string>
+    <string name="choose_paper_width">纸张宽度:</string>
+    <string name="width1">58mm</string>
+    <string name="width2">80mm</string>
+    <string name="printhex">HEX</string>
+    <string name="btnSend">发送数据</string>
+    <string name="btn_test">打印测试页</string>
+    <string name="btn_prtbmp">打印图片</string>
+    <string name="printpicture">图形方式打印</string>
+    <string name="chosecommand">指令测试</string>
+    <string name="btnClose">关闭</string>
+    <string name="contentdescription"></string>
+    <string name="btn_prttable">打印自定义表格</string>
+    <string name="Smallticketprinting">打印自定义小票</string>
+    <string name="btn_prtcode">打印一二维条码</string>
+    <string name="btn_scqr">生成QR码并打印</string>
+    <string name="btn_dyca">打开相机</string>
+    <string name="input">请输入打印内容!</string>
+    <string name="choose_printcoding"></string>
+    <string name="big5">BIG5</string>
+    <string name="thai">泰语</string>
+    <string name="kor">韩语</string>
+    <string name="gbk12">简体</string>
+    
+    <!--  DeviceListActivity -->
+    <string name="scanning">扫描设备…</string>
+    <string name="select_device">选择连接的设备</string>
+    <string name="none_paired">没有匹配的设备</string>
+    <string name="none_found">没有找到设备</string>
+    <string name="title_paired_devices">匹配的设备</string>
+    <string name="title_other_devices">其它可用设备</string>
+    <string name="button_scan">扫描设备</string>
+     
+    <!--  Message -->
+    <string name="msg_state">输入错误!</string>
+    <string name="empty">输入为空</string>
+    <string name="empty1">输入为空，请在文本框输入需转换的内容..</string>
+    <string name="not_connected">请先连接蓝牙打印机</string>
+    <string name="bt_not_enabled_leaving">蓝牙没有启动，退出程序</string>
+    <string name="title_connecting">正在连接…</string>
+    <string name="title_connected_to">已连接: </string>
+    <string name="title_not_connected">没有连接</string>
+    <string name="Connecting">已连接到蓝牙打印机</string>
+    <string name="msg_statev1">Without a picture</string>
+    <string name="strLang">cn</string>
+    <string name="camer">没有拍摄任何图片</string>
+    <string name="msg_error">输入错误,请检查!</string>
+     
+</resources>

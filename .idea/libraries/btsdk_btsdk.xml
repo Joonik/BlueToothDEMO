@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="btsdk.btsdk">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/btsdk/btsdk.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

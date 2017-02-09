@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BluetoothDemo</string>
+    <string name="app_title">블루투스 프린터 시험 절차</string>
+
+    <!--main_activity-->
+    <string name="connect">검색 및 블루투스 프린터를 연결</string>
+    <string name="txt_content">&quot;&quot;</string>
+    <string name="choose_paper_width">용지 폭:</string>
+    <string name="width1">58mm</string>
+    <string name="width2">80mm</string>
+    <string name="printhex">HEX</string>
+    <string name="btnSend">데이터를 전송</string>
+    <string name="btn_test">테스트 페이지를 인쇄</string>
+    <string name="btn_prtbmp">인쇄 그림</string>
+    <string name="printpicture">그래픽 인쇄</string>
+    <string name="chosecommand">테스트 명령</string>
+    <string name="btnClose">가까운</string>
+    <string name="contentdescription"></string>
+    <string name="btn_prttable">인쇄 사용자 지정 양식</string>
+    <string name="Smallticketprinting">작은 티켓 인쇄 사용자 정의</string>
+    <string name="btn_prtcode">이차원 바코드를 인쇄</string>
+    <string name="btn_scqr">생성 및 QR 코드를 인쇄</string>
+    <string name="btn_dyca">카메라를 켭니다</string>
+    <string name="input">인쇄를 입력하세요!</string>
+    <string name="choose_printcoding"></string>
+    <string name="big5">전통적인</string>
+    <string name="thai">타이어</string>
+    <string name="kor">한국의</string>
+    <string name="gbk12">간체</string>
+    
+    <!--  DeviceListActivity -->
+    <string name="scanning">스캔 장치…</string>
+    <string name="select_device">연결된 장치를 선택</string>
+    <string name="none_paired">일치하는 장치가 없습니다</string>
+    <string name="none_found">찾지 장치가 없습니다</string>
+    <string name="title_paired_devices">경기 장비</string>
+    <string name="title_other_devices">기타 유용한 장비</string>
+    <string name="button_scan">스캔 장치</string>
+     
+    <!--  Message -->
+    <string name="msg_state">입력 오류!</string>
+    <string name="empty">입력이 비어 있습니다</string>
+    <string name="empty1">입력 변환 할 수있는 내용을 입력 텍스트 상자에 비어..</string>
+    <string name="not_connected">블루투스 프린터를 연결하십시오</string>
+    <string name="bt_not_enabled_leaving">블루투스 프로그램을 종료, 시작되지 않습니다</string>
+    <string name="title_connecting">연결…</string>
+    <string name="title_connected_to">연결: </string>
+    <string name="title_not_connected">연결되어 있지 않습니다</string>
+    <string name="Connecting">이는 블루투스 프린터에 연결된</string>
+    <string name="msg_statev1">Without a picture</string>
+    <string name="strLang">kor</string>
+    <string name="camer">없음 사진 없음</string>
+    <string name="msg_error">입력 오류가 확인하시기 바랍니다!</string>
+</resources>

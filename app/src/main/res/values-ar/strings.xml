@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">التسمية تجريبي</string>
+    <string name="app_title">إجراء اختبار طابعة بلوتوث</string>
+
+    <!--main_activity-->
+    <string name="connect">البحث عن وتوصيل طابعة بلوتوث</string>
+    <string name="txt_content">&quot;&quot;</string>
+    <string name="choose_paper_width">عرض ورقة:</string>
+    <string name="width1">58mm</string>
+    <string name="width2">80mm</string>
+    <string name="printhex">HEX</string>
+    <string name="btnSend">إرسال البيانات</string>
+    <string name="btn_test">طباعة صفحة اختبار</string>
+    <string name="btn_prtbmp">طباعة صورة</string>
+    <string name="printpicture">الطباعة الرسومية</string>
+    <string name="chosecommand">تعليمات الاختبار</string>
+    <string name="btnClose">قريب</string>
+    <string name="contentdescription"></string>
+    <string name="btn_prttable">طباعة شراء علامة واحدة</string>
+    <string name="Smallticketprinting">علامة طباعة طلبين اثنين</string>
+    <string name="btn_prtcode">طباعة الرمز الشريطي ثنائي الأبعاد</string>
+    <string name="btn_scqr">توليد وطباعة رمز الاستجابة السريعة</string>
+    <string name="btn_dyca">تشغيل الكاميرا</string>
+    <string name="input">الرجاء إدخال الطباعة!</string>
+    <string name="big5">BIG5</string>
+    <string name="thai">Thai</string>
+    <string name="kor">Korean</string>
+    <string name="gbk12">Simplified</string>
+    
+    <!--  DeviceListActivity -->
+    <string name="scanning">جهاز المسح الضوئي…</string>
+    <string name="select_device">حدد جهاز متصل</string>
+    <string name="none_paired">لا توجد أجهزة مطابقة</string>
+    <string name="none_found">لم يتم العثور على جهاز</string>
+    <string name="title_paired_devices">معدات مباراة</string>
+    <string name="title_other_devices">معدات أخرى مفيدة</string>
+    <string name="button_scan">جهاز المسح الضوئي</string>
+     
+    <!--  Message -->
+    <string name="msg_state">خطأ في إدخال البيانات!</string>
+    <string name="empty">إدخال فارغ</string>
+    <string name="empty1">إدخال فارغ، في مربع النص لإدخال المحتوى المراد تحويله ..</string>
+    <string name="not_connected">يرجى توصيل طابعة بلوتوث</string>
+    <string name="bt_not_enabled_leaving">بلوتوث لا يبدأ، إنهاء البرنامج</string>
+    <string name="title_connecting">ربط ..</string>
+    <string name="title_connected_to">إتصال: </string>
+    <string name="title_not_connected">غير متصل</string>
+    <string name="Connecting">كان متصلا إلى طابعة بلوتوث</string>
+    <string name="msg_statev1">Without a picture</string>
+    <string name="strLang">cn</string>
+    <string name="camer">لا صور</string>
+    <string name="msg_error">أخطاء الإدخال، يرجى مراجعة!</string>
+
+    
+</resources>
